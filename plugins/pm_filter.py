@@ -388,10 +388,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/CaptainPriceRobot?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🍿 Movie Group 🍿', url='https://t.me/MovieHubSLOfficial')
+            InlineKeyboardButton('🍿 Movie Group 🍿', url='https://t.me/NEW_PUNJABI_MOVIES_ZILA_STATION')
             ],[
-            InlineKeyboardButton('Updates 🌺', url='https://t.me/AnonymousBotsInfinity'),
-            InlineKeyboardButton('Support 🍀', url='https://t.me/AnonymousBotsInfinitySupport')
+            InlineKeyboardButton('Updates 🌺', url='https://t.me/PUNJABI_FILMY_PITAARA_786'),
+            InlineKeyboardButton('Support 🍀', url='https://t.me/+yuMu7Eg3jUlkY2M1')
             ],[
             InlineKeyboardButton('🧿 About 🧿', callback_data='help')
         ]]
@@ -408,7 +408,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🏠 Home', callback_data='start'),
             InlineKeyboardButton('Close 🗑️', callback_data="close")
             ],[
-            InlineKeyboardButton('🔐 Source Code 🔐', url='https://github.com/KisaraPesanjithPerera/Captain-Price')
+            InlineKeyboardButton('🔐 Source Code 🔐', url='https://github.com/PROFESSORSAAB/Captain-Price')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -418,7 +418,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/AnonymousBotsInfinity'),
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/NEW_PUNJABI_MOVIES_ZILA_STATION'),
             InlineKeyboardButton('My Stats 🚀', callback_data='stats')
             ],[
             InlineKeyboardButton('🏠 Home', callback_data='start'),
